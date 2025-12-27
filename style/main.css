@@ -106,6 +106,7 @@ body {
   height: 350px;
   max-width: 100%;
   /* height: auto; */
+  object-fit: cover;
 }
 
 .six .hat {
@@ -266,10 +267,20 @@ body {
 
   .idea-5 span {
     display: block;
+    line-height: 1.2;
+    margin-top: 10px;
+    font-size: 0.8em;
   }
 
   .idea-6 span {
     font-size: 10rem;
+  }
+
+  .six img {
+    height: auto;
+    max-height: 250px;
+    width: 80%;
+    object-fit: cover;
   }
 
   .six .hat {
